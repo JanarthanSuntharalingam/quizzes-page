@@ -1,0 +1,61 @@
+body{
+  background-color: rgba(100, 63, 201, 0.2);
+}
+p{
+  color : rgb(255, 255, 255);
+  font-weight: 700;
+}
+.base {
+  background-color: rgb(255, 255, 255);
+  width: 340px;
+  height: 450px;
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+  right: 10px;
+  border-radius: 15px;
+}
+
+.ans{
+  display : flex;
+  align-items: center;
+  width : 300px;
+  height : 40px;
+  border-radius : 7px;
+  background-color: rgb(100, 63, 201);
+  position : absolute;
+  right : 20px;
+  left: 20px;
+}
+.submiter{
+  width: 120px;
+  height: 30px;
+  background-color: rgb(100, 63, 201);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 500;
+}
+#btn{
+    width: 120px;
+    height: 30px;
+    background-color: rgb(100, 63, 201);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+@keyframes emp{
+  from{background-color: rgb(0, 150, 0)}
+  to {background-color: rgb(0, 250, 0)}
+}
+@keyframes rmp{
+  from{background-color: rgb(150, 0, 0)}
+  to {background-color: rgb(250, 0, 0)}
+}
