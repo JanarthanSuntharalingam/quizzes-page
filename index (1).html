@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p id="ques" style="font-family:monospace; font-size: 20px; color: rgb(60, 0, 95);
+  ">
+    start question?
+  </p>
+ 
+  <div id="quesbase" class="base">
+    <br>
+    <br>
+ 
+    <div id="ansp" class="ans" onclick="art('a');">
+     
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="ansq" class="ans" onclick="art('b');">
+       <!--Tab to edit-->
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="ansr" class="ans" onclick="art('c');">
+      <!--Tab to edit-->
+    </div>
+    <br>
+    <br>
+    <br>  
+    <div id="anss" class="ans" onclick="art('d');">
+     
+    </div>
+    
+    <button class="submiter" onclick="sub();">
+      submit
+    </button>
+    
+  </div>
+  
+  <button id="btn" onclick="questionGen()">
+     try task!
+  </button>
+  
+  <script src="main.js"></script>
+  
+</body>
+</html>
